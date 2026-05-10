@@ -78,13 +78,13 @@ img
 .text2
 {
     color: #E5E7EB;
-    font-size: 24px;
+    font-size: 18px;
 
 }
 
 button
 {
-  background: royalblue;
+  background: #3882F6;
   border: 1px solid royalblue;
   color: white;
   font-size: 35px;
@@ -110,6 +110,7 @@ button
    flex-shrink: 0;
    padding: 20px;
    margin-bottom: 60px;
+   gap: 20px;
      
 }
  .box1
@@ -117,22 +118,30 @@ button
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap : 30px;
-    padding:20px;
-    width:400px;
-    height:300px;
-        
+    
+    width: 250px;
+    height: 250px;
+    
 }
 
 .box1 img
 {
     border-radius: 8px;
+    width: 200px;
+    height: 150px;
    
 
 }
 .text3
-{
-    font-size: 30px;
+{ 
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-size: 15px;
+
    
 }
 
@@ -163,7 +172,7 @@ button
     align-items: center;
    font-weight: 300; 
    
-    font-size: 52px;
+    font-size: 36px;
     color: #1F2937;
     padding: 40px;
  }
