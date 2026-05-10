@@ -189,22 +189,19 @@ button
 }
 .section4
 {
-    display: flex;
+   display: flex;
     flex-direction: column;
     
-    margin-right: 80px;
-    justify-content: center;
 
- align-self: center;
-   
+    
+    justify-content: center;
+    align-items: center;
     background-color: #3882F6;
     border-radius: 15px;
     margin-top:60px;
     margin-bottom: 200px;
-    
-    
-    
-}
+      
+    }
 .box4
 {
     display:flex;
