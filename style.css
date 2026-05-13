@@ -3,9 +3,6 @@ body
 display: flex;
 flex-direction: column;
 margin: 0;
-width: 100vw;
-min-height: 100vh;
-
 }
 
 
@@ -192,6 +189,8 @@ button
    display: flex;
     flex-direction: column;
     justify-content: center;
+   
+    
     align-self: center;
     background-color: #3882F6;
     border-radius: 15px;
@@ -200,14 +199,14 @@ button
     margin-bottom: 100px;
     
     
-    flex-shrink: 0;
+    
     }
 .box4
 {
     display:flex;
     margin-left: 25px;
     margin-right: 50px;
-    flex-shrink: 0;
+    
  
 border-top-left-radius: 16px;
 
