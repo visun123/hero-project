@@ -2,6 +2,8 @@ body
 {
 display: flex;
 flex-direction: column;
+
+width: 100%;
 margin: 0;
 }
 
@@ -189,7 +191,7 @@ button
    display: flex;
     flex-direction: column;
     justify-content: center;
-   
+    max-width: 1200px;
     
     align-self: center;
     background-color: #3882F6;
